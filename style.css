@@ -28,7 +28,7 @@ input{
     font-size: 80px;
     color: white;
     margin-bottom: 30px;
-    /* pointer-events: none; */
+    pointer-events: none;
 }
 input::placeholder{
     color: white;
