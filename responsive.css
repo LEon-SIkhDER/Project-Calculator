@@ -1,0 +1,7 @@
+@media screen and (max-width:600px){
+    .md{
+        width: calc(100vw - 40px);
+        padding: 8%;
+    }
+    
+}
