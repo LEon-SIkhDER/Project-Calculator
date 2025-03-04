@@ -1,6 +1,9 @@
 document.getElementById("container").addEventListener("click", function (e) {
     const value = e.target.innerText
     const input = document.getElementById("input").value
+    if(e.target.classList.contains("container")){
+        return
+    }
     if (value === "AC") {
         document.getElementById("input").value = ""
         return
